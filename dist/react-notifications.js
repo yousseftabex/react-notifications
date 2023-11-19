@@ -1007,9 +1007,9 @@ var NotificationManager = /*#__PURE__*/function (_EventEmitter) {
   }
 
   NotificationManager_createClass(NotificationManager, [{
-    alert('sss')
     key: "create",
     value: function create(notify) {
+    alert('sss')
       var defaultNotify = {
         id: createUUID(),
         type: 'info',
